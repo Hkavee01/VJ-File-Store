@@ -1,10 +1,3 @@
-def human_size(bytes):
-    """ Returns a human readable string representation of bytes in KB, MB, or GB """
-    size = float(bytes)
-
-    if size < 1024:
-        return "{:.2f} KB".format(size)
-    elif size < 1024**2:
-        return "{:.2f} MB".format(size / 1024.0)
-    else:
-        return "{:.2f} GB".format(size / (1024.0**2))
+def human_size(bytes, units=[' bytes','KB','MB','GB','TB', 'PB', 'EB']):
+    """ Returns a human readable string representation of bytes """
+    return str(bytes) + units[0] if int(bytes) < 1024 else human_size(int(bytes)>>10, units[1:])

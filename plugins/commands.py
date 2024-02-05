@@ -62,8 +62,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('😇 ᴊᴏɪɴ ᴍᴏᴠɪᴇ ᴡᴏʀʟᴅ ᴄʜᴀɴɴᴇʟ', url='https://t.me/+1E7S7pM3PMY3Yzk1')
             ],[
-            InlineKeyboardButton('🔍 ʙᴏᴛ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/vj_bot_disscussion'),
-            InlineKeyboardButton('🤖 ʙᴏᴛ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/vj_botz')
+            InlineKeyboardButton('ʙᴏᴛ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/vj_bot_disscussion'),
+            InlineKeyboardButton('ʙᴏᴛ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/vj_botz')
             ],[
             InlineKeyboardButton('💝 ꜱᴜʙꜱᴄʀɪʙᴇ ʙᴏᴛ ᴏᴡɴᴇʀ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ', url='https://youtube.com/@Tech_VJ')
             ],[
